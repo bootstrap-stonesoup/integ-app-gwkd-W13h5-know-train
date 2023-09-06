@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-k4fq
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/bootstrap/integration-e2e-tenant/integ-app-gwkd/devfile-sample-python-basic-k4fq@sha256:b71ee4fd81ad5a54dc7f7be305f820960b8bdd8549155157060c02ab2b998d5a
         name: my-python
         ports:
         - containerPort: 8081
